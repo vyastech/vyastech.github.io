@@ -44,7 +44,7 @@
 
     </div>
     <script>
-    var more = "     ╔═╗╔╦╗╦ ╦╔═╗╦╔╦╗  ╦  ╦╦ ╦╔═╗╔═╗\n"
+    const more = "     ╔═╗╔╦╗╦ ╦╔═╗╦╔╦╗  ╦  ╦╦ ╦╔═╗╔═╗\n"
               +"     ╠═╣ ║║║║║╠═╣║ ║   ╚╗╔╝╚╦╝╠═╣╚═╗\n"
               +"     ╩ ╩═╩╝╚╩╝╩ ╩╩ ╩    ╚╝  ╩ ╩ ╩╚═╝\n"
               +"                Developer             \n"
@@ -52,7 +52,7 @@
               +"\ngithub: github.com/vyastech",
         help =  'Adwait Vyas console.\n'
                   +'Type \'more\' to read more about me. Type \'help\' to read this text again\n'
-                  +'Type \'quit\' to get (back) to my home page. \nEverything else will be interpreted as JavaScript.\n'
+                  +'Type \'home\' to go to my home page. \nEverything else will be interpreted as JavaScript.\n'
                   +'That means you can do pretty much anything here, even break stuff. Enjoy.\n',
         cow = '                 (__) \n                 (oo) \n           /------\\/ \n          / |    ||   \n         *  /\\---/\\ \n            ~~   ~~   \n..."I like to moo it moo it!"...\n';
       jQuery(function($, undefined) {
@@ -66,9 +66,9 @@
           else if (command == 'moo') {
             term.echo(cow);
           }
-          else if (command == 'quit') {
+          else if (command == 'home') {
             term.echo('Bye!');
-            window.location = 'http://adwaitvyas.com';
+            window.location = 'http://vyas.tech';
           }
           else if (command !== '') {
             try {
