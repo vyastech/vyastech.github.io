@@ -164,11 +164,11 @@ h4 {
 	background-color: #fbfbfb;
 }
 .logo-small {
-	color: #ee593e;
+	color: #00bcd4;
 	font-size: 50px;
 }
 .logo {
-	color: #ee593e;
+	color: #00bcd4;
 	font-size: 200px;
 }
 .thumbnail {
@@ -183,13 +183,13 @@ h4 {
 }
 .carousel-control.right, .carousel-control.left {
 	background-image: none;
-	color: #ee593e;
+	color: #00bcd4;
 }
 .carousel-indicators li {
-	border-color: #ee593e;
+	border-color: #00bcd4;
 }
 .carousel-indicators li.active {
-	background-color: #ee593e;
+	background-color: #00bcd4;
 }
 .item h4 {
 	font-size: 19px;
@@ -210,13 +210,13 @@ h4 {
 	box-shadow: 5px 5px 10px rgba(0,0,0, .2);
 }
 .panel-footer .btn:hover {
-	border: 1px solid #ee593e;
+	border: 1px solid #00bcd4;
 	background-color: #fff !important;
-	color: #ee593e;
+	color: #00bcd4;
 }
 .panel-heading {
 	color: #fff !important;
-	background-color: #ee593e !important;
+	background-color: #00bcd4 !important;
 	padding: 25px;
 	border-bottom: 1px solid transparent;
 	border-top-left-radius: 0px;
@@ -236,7 +236,7 @@ h4 {
 }
 .panel-footer .btn {
 	margin: 15px 0;
-	background-color: #ee593e;
+	background-color: #00bcd4;
 	color: #fff;
 }
 .navbar {
@@ -256,8 +256,8 @@ h4 {
 	-ms-transition: all .4s ease-in-out;
 }
 
-.navbar.solid {
-	background-color: #ee593e !important;
+.navbar.solid{
+	background-color: #00bcd4 !important;
 	box-shadow: 0px 5px 10px 2px rgba(0,0,0, .4);
 }
 .navbar li a, .navbar .navbar-brand {
@@ -269,7 +269,7 @@ h4 {
 	font-style: 'Open Sans', sans-serif;
 }
 .navbar-nav li a:hover, .navbar-nav li.active a{
-	background-color: #D84315 !important;
+	background-color: #00acc1 !important;
 }
 .navbar-nav li a {
 	transition: all .4s ease-in-out;
@@ -287,7 +287,7 @@ h4 {
 	background-color: transparent !important;
 }
 #contact p .fa {
-	color: #ee593e;
+	color: #00bcd4;
 }
 .slideanim {visibility:hidden;}
 .slide {
@@ -332,7 +332,7 @@ h4 {
 }
 
 .social:hover {
-	color: #ee593e;
+	color: #00bcd4;
 	text-decoration: none;
 }
 .navbar-collapse{
@@ -340,11 +340,11 @@ h4 {
 }
 
 .btn {
-	color: #ee593e;
+	color: #00bcd4;
 }
 
 .btn:hover {
-	color: #D84315;
+	color: #00acc1;
 }
 
 #about{
@@ -354,11 +354,11 @@ h4 {
 }
 
 a, a:visited {
-	color: #D84315;
+	color: #00acc1;
 }
 
 a:hover {
-	color: #ee593e;
+	color: #00bcd4;
 }
 
 #contact {

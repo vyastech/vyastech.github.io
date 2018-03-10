@@ -8,7 +8,7 @@
   <meta name="keywords" content="Android Developer, Web Developer, Software Engineer, HTML, CSS, JavaScript, Java">
   <meta name="author" content="Adwait Vyas">
   <meta name="robots" content="index, follow">
-  <meta name="theme-color" content="#ee593e">
+  <meta name="theme-color" content="#00bcd4">
   <meta property="og:title" content="Adwait Vyas">
   <meta property="og:site_name" content="adwaitvyas.com">
   <meta property="og:url" content="http://adwaitvyas.com">
@@ -218,6 +218,25 @@
           });
         }
       });
+
+      $('.navbar-collapse').on('hidden.bs.collapse', function () {
+        console.log("hide");
+        var pos = $('#about').offset().top;
+        var winTop = $(window).scrollTop();
+        if (pos <= winTop + 60) {
+          $('.navbar').addClass("solid");
+          $(".navbar-brand").fadeIn("fast");
+        } else {
+          $('.navbar').removeClass("solid");
+          $(".navbar-brand").fadeOut("fast");
+        }
+      });
+
+      $('.navbar-collapse').on('shown.bs.collapse', function () {
+       $('.navbar').addClass("solid");
+        $(".navbar-brand").fadeIn("fast");
+      });
+
 
       $('.parallax').scroll(function() {
         //navbar collapse on click off
