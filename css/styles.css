@@ -1,7 +1,4 @@
 @supports ((perspective: 1px) and (not (-webkit-overflow-scrolling: touch))) {
-
-	/* Parallax styles thanks to keithclark.co.uk
-	--------------------------------------------- */
 	body {
 		transform: translateZ(0);
 	}
@@ -55,7 +52,7 @@
 		-webkit-transform: translateZ(-300px) scale(2);
 		transform: translateZ(-300px) scale(2);
 		z-index: 3;
-		margin-top: -80px;
+		margin-top: -200px;
 	}
 
 	.parallax__layer--deep {
@@ -63,7 +60,7 @@
 		transform: translateZ(-600px) scale(3);
 		z-index: 2;
 	}
-}
+} 
 
 /*other styles
 --------------------------------------------------*/
@@ -129,11 +126,11 @@ h4 {
 	background-color: #666;
 	background-position: center;
 	background-repeat: no-repeat;
+	background-image: url(../vid/bg.jpg);
 	color: #fff;
 	padding: 30px 30px;
 	font-family: Montserrat, sans-serif;
 	transition: none;
-	margin-top: -200px;
 	margin-bottom: 0px;
 }
 
