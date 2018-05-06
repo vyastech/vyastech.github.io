@@ -70,6 +70,9 @@
             <a href="#contact">CONTACT</a>
           </li>
           <li>
+            <a href="//medium.com/@vyashole">BOLG</a>
+          </li>
+          <li>
             <a href='console'>NERD MODE</a>
           </li>
         </ul>
@@ -295,7 +298,7 @@
         }
       });
 
-      $('.navbar-collapse').on('hidden.bs.collapse', function () {
+      $('.navbar-collapse').on('hide.bs.collapse', function () {
         console.log("hide");
         var pos = $('#about').offset().top;
         var winTop = $(window).scrollTop();
@@ -308,7 +311,7 @@
         }
       });
 
-      $('.navbar-collapse').on('shown.bs.collapse', function () {
+      $('.navbar-collapse').on('show.bs.collapse', function () {
         $('.navbar').addClass("solid");
         $(".navbar-brand").fadeIn("fast");
       });
