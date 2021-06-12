@@ -1,0 +1,150 @@
+# Site
+repository: vyastech/vyastech.github.io
+# favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
+
+# Content configuration version
+version: 2
+
+# Personal info
+name: Adwait Vyas
+title: Software Engineer
+email: adwait@vyas.tech
+# email_title: Email (Email title override)
+# phone:
+# phone_title: Phone (Phone title override)
+# website: Your website (eg. https://google.com)(optional)
+# website_title: Web (Website title override)
+
+# Dark Mode (true/false/never)
+darkmode: never
+
+# Social links
+twitter_username: vyashole
+github_username: vyashole
+linkedin_username: adwaitvyas
+
+# Additional icon links
+# additional_links:
+# - title: Link name
+#   icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
+#   url: Link url (eg. https://google.com)
+# - title: another link
+#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
+#   url: Link url (eg. https://google.com)
+
+# Google Analytics and Tag Manager
+# Using more than one of these may cause issues with reporting
+# gtm: "GTM-0000000"
+# gtag: "UA-00000000-0"
+# google_analytics: "UA-00000000-0"
+
+# About Section
+# about_title: About Me (Use this to override about section title)
+about_profile_image: images/adwait.jpeg
+about_content: | # this will include new lines to allow paragraphs
+  Hi, my name is Adwait and I am a Software Engineer, specializing in <mark>mobile apps</mark> for the most part. 
+
+  I have over 7 years of experience in devloping quality mobile apps. I am most skilled in <mark>React Native</mark> and <mark>Android</mark>.
+content:
+  - title: Experience
+    layout: list
+    content:
+      - layout: left
+        title: Jupiter
+        sub_title: Software Development Engineer III (Frontend Platform)
+        caption: May 2021 - present
+        link: https://jupiter.money
+        quote: >
+          Banking that keeps pace with you
+        description: | # this will include new lines to allow paragraphs
+          - Responsible for platform libraries such as the UI component library, global store, commons, utilities, etc. in React Native
+          - Developing native modules for React Native app which interfaces with Android and iOS native SDKs such as NPCI common library for UPI
+          - Responsible for releases, stability vitals, metrics collection for both Android and iOS apps
+      - layout: left
+        title: Jupiter
+        sub_title: Software Development Engineer
+        caption: Jan 2020 - May 2021 (1 year 5 months)
+        link: https://jupiter.money
+        quote: >
+          Banking that keeps pace with you
+        description: | # this will include new lines to allow paragraphs
+          - Contributed to UI design and development of React Native Application for Jupiter 
+          - Gained experience in web development, TypeScript and React js
+          - Stack: React Native, Android, iOS, React.js
+      - layout: left
+        title: Atlan
+        sub_title: Software Engineer
+        caption: Feb 2017 - Jan 2020 (3 years)
+        link: https://atlan.com
+        quote: >
+          Modern Data Platform (Formerly known as SocialCops)
+        description: | # this will include new lines to allow paragraphs
+          - Developed Android application for the field data collection software Collect, with MVVM architecture and Write Now Sync Later model.
+          - Managed on-premise deployments for DISHA (Ministry of Rural Development) and India SDG Dashboard (Ministry of Statistics and Program Implementation)
+      - title: PaGaLGuY
+        sub_title: Software Engineer
+        caption: Jul 2016 - Feb 2017 (8 months)
+        link: https://pagalguy.com
+        quote: >
+          India's Largest Education Network
+        description: | # this will include new lines to allow paragraphs
+          - Developed Android application for Pagalguy. Mostly involved REST APIs and RecyclerViews\
+      - title: NexGear
+        sub_title: Software Engineer
+        caption: Jun 2015 - Jul 2016 (1 year 2 months)
+        quote: >
+          A wearable technology startup
+        description: | # this will include new lines to allow paragraphs
+          - Developed an Android application for Frodo Action camera (native Android)
+          - Developed NexGear and Frodocam websites in Wordpress and Hugo respectively
+      - title: SnappLock
+        sub_title: Co-founder, Software Engineer
+        caption: Jun 2014 - Jun 2015 (1 year 1 month)
+        quote: >
+          An innovative take on Smartphone Privacy
+        description: | # this will include new lines to allow paragraphs
+          - Developed an Android app that lets the user lock other apps with methods such as numeric PIN, alphanumeric password or a pattern and uses the front camera for intruder detection.
+          - Gained hands-on experience with Android SDK, Camera APIs, etc.
+  - title: Education
+    layout: list
+    content:
+      - layout: left
+        title: Vivekanand Education Society's Institute Of Technology
+        sub_title: B.E. Information Technology
+        caption: 2011 - 2015
+        quote: >
+          Affiliated to University of Mumbai
+        description: | # this will include new lines to allow paragraphs
+          Coursework: Data Structures and Algorithms, Structured Programming, Software Project Management, Programming for Portable and Mobile devices
+  - title: Skills
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      Android • Web Development • React.js • React Native • JavaScript • TypeScript • Kotlin • Flutter
+# Footer
+footer_show_references: true
+# references_title: References on request (Override references text)
+
+# Build settings
+# theme: modern-resume-theme (Use this is you are hosting your resume yourself)
+# remote_theme: sproogen/modern-resume-theme (Use this if you are hosting your resume on GitHub)
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+  - jekyll-seo-tag
+
+exclude:
+  [
+    "Gemfile",
+    "Gemfile.lock",
+    "node_modules",
+    "vendor/bundle/",
+    "vendor/cache/",
+    "vendor/gems/",
+    "vendor/ruby/",
+    "lib/",
+    "scripts/",
+    "docker-compose.yml",
+  ]
