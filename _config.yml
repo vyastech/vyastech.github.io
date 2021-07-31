@@ -42,9 +42,13 @@ linkedin_username: adwaitvyas
 # about_title: About Me (Use this to override about section title)
 about_profile_image: images/adwait.jpeg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name is Adwait and I am a Software Engineer, specializing in <mark>mobile apps</mark> for the most part. 
+  My name is Adwait Vyas and I am a Software Engineer, specializing in <mark>mobile apps</mark>. 
 
-  I have over 7 years of experience in devloping quality mobile apps. I am most skilled in <mark>React Native</mark> and <mark>Android</mark>.
+  I have about 7 years of experience in devloping quality mobile apps. I am most skilled in <mark>Android</mark> and <mark>React Native</mark>.
+
+  I have 5 years of experience in native Android, having worked on 2 medium to large apps, namely PagalGuy and Collect, and about 2 years in React Native. 
+
+  Profecient in Java, Kotlin and TypeScript
 content:
   - title: Experience
     layout: list
@@ -79,7 +83,8 @@ content:
         quote: >
           Modern Data Platform (Formerly known as SocialCops)
         description: | # this will include new lines to allow paragraphs
-          - Developed Android application for the field data collection software Collect, with MVVM architecture and Write Now Sync Later model.
+          - Developed a large Android application for the field data collection software Collect, with MVVM architecture and Write Now Sync Later model.
+          - Optimized performance and privacy by keeping data offline, syncing only when needed, or on-demand depending on customers' preferences.
           - Managed on-premise deployments for DISHA (Ministry of Rural Development) and India SDG Dashboard (Ministry of Statistics and Program Implementation)
       - title: PaGaLGuY
         sub_title: Software Engineer
@@ -88,7 +93,8 @@ content:
         quote: >
           India's Largest Education Network
         description: | # this will include new lines to allow paragraphs
-          - Developed Android application for Pagalguy. Mostly involved REST APIs and RecyclerViews\
+          - Developed Android application for Pagalguy from scratch in Kotlin. Mostly involved REST APIs and RecyclerViews.
+          - Created a kitchen sink library of UI elements for use across the company's apps.
       - title: NexGear
         sub_title: Software Engineer
         caption: Jun 2015 - Jul 2016 (1 year 2 months)
