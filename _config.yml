@@ -42,21 +42,39 @@ linkedin_username: adwaitvyas
 # about_title: About Me (Use this to override about section title)
 about_profile_image: images/adwait.jpeg
 about_content: | # this will include new lines to allow paragraphs
-  My name is Adwait Vyas and I am a Software Engineer, specializing in <mark>mobile apps</mark>. 
+  Qualifications: Software Engineer, B.E. Information Technology, University of Mumbai
 
-  I have about 7 years of experience in devloping quality mobile apps. I am most skilled in <mark>Android</mark> and <mark>React Native</mark>.
-
-  I have 5 years of experience in native Android, having worked on 2 medium to large apps, namely PagalGuy and Collect, and about 2 years in React Native. 
+  Experience: 6 years of experience in Android development, 1 year of experience in React Native
 
   Profecient in Java, Kotlin and TypeScript
+
 content:
   - title: Experience
     layout: list
     content:
+       - layout: left
+        title: Delivery Hero
+        sub_title: Software Engineer
+        caption: Apr 2022 - present
+        link: https://www.deliveryhero.com/
+        quote: >
+          Always delivering an amazing experience
+        description: | # this will include new lines to allow paragraphs
+          - Rider experience squad - working on the courier Android app
+          - Kotlin, Jetpack Compose, Android Architechture components
+      - layout: left
+        title: Unacademy
+        sub_title: Software Engineer
+        caption: Aug 2021 - Jan 2022
+        link: https://unacademy.com
+        quote: >
+          India's largest learning platform
+        description: | # this will include new lines to allow paragraphs
+          - React native development for the live class infrastructure
       - layout: left
         title: Jupiter
         sub_title: Software Development Engineer III (Frontend Platform)
-        caption: May 2021 - present
+        caption: May 2021 - Jul 2021
         link: https://jupiter.money
         quote: >
           Banking that keeps pace with you
