@@ -52,7 +52,7 @@ content:
   - title: Experience
     layout: list
     content:
-       - layout: left
+      - layout: left
         title: Delivery Hero
         sub_title: Software Engineer
         caption: Apr 2022 - present
